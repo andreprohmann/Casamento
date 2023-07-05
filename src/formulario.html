@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/frontend/assets/css/style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <title>Andre e Cris</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <p style="color: rgb(177, 122, 125)">Andre & Cris</p>
+        <ul>
+            <li><a href="./presentes.html">Presente</a></li>
+            <li><a href="./formulario.html">Formulario de Presença</a></li>
+            <li><a href="/index.html">Pagina Inicial</a></li>
+        </ul>
+    </div>
+    <div>
+
+
+        <form id="formulario-contato" action="https://formsubmit.co/andreecrislaineprohmann@gmail.com" method="POST"
+            style=" color:rgb(177, 122, 125)">
+            <h3 class="titulo-formulario"></h3>
+            <label>
+                Seu nome
+                <input class="text" type="text" name="Nome" required placeholder="Digite o Seu nome"
+                    style="font-size: 20px;" />
+            </label>
+            <label>
+                Não Poderei ir
+                <input class="radio" type="radio" name="vaiounaovai" value="naoVai" raquired
+                    placeholder="Nao poderei IR" style="font-size: 20px;" />
+                Já me sinto lá
+                <input class="radio" type="radio" name="vaiounaovai" value="Vai" raquired placeholder="Já Estou lá"
+                    style="font-size: 20px;" />
+            </label>
+
+            <label>
+                Acompanhante
+                <input class="checkbox" type="checkbox" name="acompanhante" raquired placeholder="Acompanhante"
+                    style="font-size: 20px;" />
+            </label>
+            <div>
+                <label id="bebidas">
+                    <p>Opções de Bebidas</p>
+                    <p style="display: inline-block">Chopp</p> <input  class="radio" type="radio" name="bebida" value="chop" raquired style="display: inline-block;font-size: 20px;" />
+                    <p style="display: inline-block">Vinho</p> <input class="radio" type="radio" name="bebida" value="vinho" raquired style="display: inline-block;font-size: 20px;"/>
+                    <p style="display: inline-block">Refrigerante</p> <input class="radio" type="radio" name="bebida" value="refrigerante" raquired style="display: inline-block;font-size: 20px;" />
+                    <p style="display: inline-block">Levo a minha bebida</p> <input class="radio" type="radio" name="bebida" value="eulevo" raquired style="display: inline-block;font-size: 20px;" />
+                </label>
+            </div>
+            <label class="labelTelefone">
+                <p style="display: inline-block">Telefone</p>
+                <input class="telefone" type="text" name="telefone" required placeholder="Digite o seu telefone"
+                    style="font-size: 20px;"/>
+            </label>
+
+            <label style="font-size: 20px; text-align: center;">
+                Deixe a sua mensagem aqui
+                <textarea class="descrição" type="text" name="Descrição" placeholder="Qual a sua Dúvida"
+                    style="font-size: 20px;text-align: center;"></textarea>
+            </label>
+
+            <button style=" color:rgb(177, 122, 125); border-color:rgb(177, 122, 125)" type="submit"> <a
+                    href="./presentes.html"></a>Enviar </button>
+
+            <div>
+                <h2 class="linkWhats" style="margin-top:50px"><a
+                        href="https://chat.whatsapp.com/CSklW56fCm0LEXUfPdfeia"> </a> Entre no Nosso Grupo de WhatsApp
+                    pelo link</h2>
+                <p style="text-decoration: none; color: rgb(177, 122, 125); font-size: 20px; text-align: center;"> <a
+                        href="https://chat.whatsapp.com/CSklW56fCm0LEXUfPdfeia">Clique aqui para entrar no Grupo </a>
+                </p>
+            </div>
+
+        </form>
+    </div>
+</body>
