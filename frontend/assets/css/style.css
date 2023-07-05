@@ -249,3 +249,9 @@ textarea{
 .radio, .checkbox{
     width:20px
 }
+@media screen and (max-width: 300px) {
+    /* estilos */
+}
+   @media screen and (max-width: 600px) {
+   /* Estilos */
+}
